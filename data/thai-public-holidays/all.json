@@ -7,7 +7,7 @@
     {
       "year": 2025,
       "year_buddhist_era": 2568,
-      "total_holidays": 25,
+      "total_holidays": 24,
       "holidays": [
         {
           "date": "2025-01-01",
@@ -72,14 +72,6 @@
           "type": "substitution_holiday",
           "is_substitution": true,
           "note": "ชดเชยวันสงกรานต์ 13 เมษายน ที่ตรงกับวันอาทิตย์"
-        },
-        {
-          "date": "2025-05-01",
-          "name_th": "วันแรงงานแห่งชาติ",
-          "name_en": "National Labour Day",
-          "type": "public_holiday",
-          "is_substitution": false,
-          "note": null
         },
         {
           "date": "2025-05-04",
@@ -268,14 +260,6 @@
           "date": "2026-04-15",
           "name_th": "วันสงกรานต์",
           "name_en": "Songkran Festival",
-          "type": "public_holiday",
-          "is_substitution": false,
-          "note": null
-        },
-        {
-          "date": "2026-05-01",
-          "name_th": "วันแรงงานแห่งชาติ",
-          "name_en": "National Labour Day",
           "type": "public_holiday",
           "is_substitution": false,
           "note": null
