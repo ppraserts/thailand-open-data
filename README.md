@@ -9,6 +9,7 @@ Open data for Thailand in JSON format, ready to use.
 |---------|------|-------------|
 | วันหยุดราชการ | [`data/thai-public-holidays/`](data/thai-public-holidays/) | Thai public holidays (วันหยุดราชการไทย) |
 | วันหยุดธนาคาร | [`data/thai-bank-holidays/`](data/thai-bank-holidays/) | Thai bank holidays (วันหยุดสถาบันการเงิน) |
+| รหัสธนาคาร | [`data/thai-banks/`](data/thai-banks/) | Thai bank codes, SWIFT/BIC codes (รหัสธนาคารไทย) |
 
 ### Thai Public Holidays (วันหยุดราชการไทย)
 
@@ -29,6 +30,14 @@ Open data for Thailand in JSON format, ready to use.
 | [`2025.json`](data/thai-bank-holidays/2025.json) | ปี พ.ศ. 2568 (2025) — 19 วัน |
 | [`2026.json`](data/thai-bank-holidays/2026.json) | ปี พ.ศ. 2569 (2026) — 19 วัน |
 | [`all.json`](data/thai-bank-holidays/all.json) | รวมทุกปี |
+
+### Thai Banks (รหัสธนาคารไทย)
+
+รหัสธนาคาร 3 หลัก (ITMX), SWIFT/BIC code, และสีแบรนด์
+
+| File | Description |
+|------|-------------|
+| [`banks.json`](data/thai-banks/banks.json) | ธนาคารทั้งหมด 22 แห่ง (พาณิชย์ + รัฐ + ต่างประเทศ) |
 
 > **หมายเหตุ:** วันหยุดราชการ vs วันหยุดธนาคาร มีความแตกต่างกัน เช่น
 > - วันแรงงาน (1 พ.ค.) — ธนาคารหยุด แต่ไม่ใช่วันหยุดราชการ

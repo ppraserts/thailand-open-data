@@ -1,0 +1,206 @@
+{
+  "source": "Bank of Thailand (BOT) / ITMX / SWIFT",
+  "description": "Thai banks with bank codes and SWIFT/BIC codes",
+  "last_updated": "2025-02-20",
+  "total_banks": 22,
+  "banks": [
+    {
+      "code": "002",
+      "short_name": "BBL",
+      "name_th": "ธนาคารกรุงเทพ",
+      "name_en": "Bangkok Bank Public Company Limited",
+      "swift_code": "BKKBTHBK",
+      "type": "commercial_bank",
+      "color": "#1e4598"
+    },
+    {
+      "code": "004",
+      "short_name": "KBANK",
+      "name_th": "ธนาคารกสิกรไทย",
+      "name_en": "Kasikornbank Public Company Limited",
+      "swift_code": "KASITHBK",
+      "type": "commercial_bank",
+      "color": "#138f2d"
+    },
+    {
+      "code": "006",
+      "short_name": "KTB",
+      "name_th": "ธนาคารกรุงไทย",
+      "name_en": "Krung Thai Bank Public Company Limited",
+      "swift_code": "KRTHTHBK",
+      "type": "commercial_bank",
+      "color": "#1ba5e1"
+    },
+    {
+      "code": "011",
+      "short_name": "TTB",
+      "name_th": "ธนาคารทหารไทยธนชาต",
+      "name_en": "TMBThanachart Bank Public Company Limited",
+      "swift_code": "TMBKTHBK",
+      "type": "commercial_bank",
+      "color": "#fc4c02"
+    },
+    {
+      "code": "014",
+      "short_name": "SCB",
+      "name_th": "ธนาคารไทยพาณิชย์",
+      "name_en": "Siam Commercial Bank Public Company Limited",
+      "swift_code": "SICOTHBK",
+      "type": "commercial_bank",
+      "color": "#4e2e7f"
+    },
+    {
+      "code": "017",
+      "short_name": "CITI",
+      "name_th": "ธนาคารซิตี้แบงก์",
+      "name_en": "Citibank N.A.",
+      "swift_code": "CITITHBX",
+      "type": "foreign_bank",
+      "color": "#003b70"
+    },
+    {
+      "code": "020",
+      "short_name": "SCBT",
+      "name_th": "ธนาคารสแตนดาร์ดชาร์เตอร์ด (ไทย)",
+      "name_en": "Standard Chartered Bank (Thai) Public Company Limited",
+      "swift_code": "SCBLTHBX",
+      "type": "foreign_bank",
+      "color": "#0072aa"
+    },
+    {
+      "code": "022",
+      "short_name": "CIMBT",
+      "name_th": "ธนาคารซีไอเอ็มบีไทย",
+      "name_en": "CIMB Thai Bank Public Company Limited",
+      "swift_code": "UBOBTHBK",
+      "type": "foreign_bank",
+      "color": "#ed1c24"
+    },
+    {
+      "code": "024",
+      "short_name": "UOB",
+      "name_th": "ธนาคารยูโอบี",
+      "name_en": "United Overseas Bank (Thai) Public Company Limited",
+      "swift_code": "UOVBTHBK",
+      "type": "foreign_bank",
+      "color": "#0b3979"
+    },
+    {
+      "code": "025",
+      "short_name": "BAY",
+      "name_th": "ธนาคารกรุงศรีอยุธยา",
+      "name_en": "Bank of Ayudhya Public Company Limited",
+      "swift_code": "AYUDTHBK",
+      "type": "commercial_bank",
+      "color": "#fec43b"
+    },
+    {
+      "code": "030",
+      "short_name": "GSB",
+      "name_th": "ธนาคารออมสิน",
+      "name_en": "Government Savings Bank",
+      "swift_code": "GSBATHBK",
+      "type": "government_bank",
+      "color": "#eb198d"
+    },
+    {
+      "code": "033",
+      "short_name": "GHB",
+      "name_th": "ธนาคารอาคารสงเคราะห์",
+      "name_en": "Government Housing Bank",
+      "swift_code": "GHBATHBK",
+      "type": "government_bank",
+      "color": "#f58220"
+    },
+    {
+      "code": "034",
+      "short_name": "BAAC",
+      "name_th": "ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร",
+      "name_en": "Bank for Agriculture and Agricultural Cooperatives",
+      "swift_code": "BAABTHBK",
+      "type": "government_bank",
+      "color": "#4b9b1d"
+    },
+    {
+      "code": "039",
+      "short_name": "MHCB",
+      "name_th": "ธนาคารมิซูโฮ",
+      "name_en": "Mizuho Bank, Ltd. Bangkok Branch",
+      "swift_code": "MHCBTHBK",
+      "type": "foreign_bank",
+      "color": "#1a2e56"
+    },
+    {
+      "code": "066",
+      "short_name": "ISBT",
+      "name_th": "ธนาคารอิสลามแห่งประเทศไทย",
+      "name_en": "Islamic Bank of Thailand",
+      "swift_code": "TIBTTHBK",
+      "type": "government_bank",
+      "color": "#0f7543"
+    },
+    {
+      "code": "067",
+      "short_name": "TISCO",
+      "name_th": "ธนาคารทิสโก้",
+      "name_en": "Tisco Bank Public Company Limited",
+      "swift_code": "TFPCTHB1",
+      "type": "commercial_bank",
+      "color": "#12549f"
+    },
+    {
+      "code": "069",
+      "short_name": "KKP",
+      "name_th": "ธนาคารเกียรตินาคินภัทร",
+      "name_en": "Kiatnakin Phatra Bank Public Company Limited",
+      "swift_code": "KKPBTHBK",
+      "type": "commercial_bank",
+      "color": "#199078"
+    },
+    {
+      "code": "070",
+      "short_name": "ICBCT",
+      "name_th": "ธนาคารไอซีบีซี (ไทย)",
+      "name_en": "Industrial and Commercial Bank of China (Thai) Public Company Limited",
+      "swift_code": "ICBKTHBK",
+      "type": "foreign_bank",
+      "color": "#c8000a"
+    },
+    {
+      "code": "071",
+      "short_name": "TCRB",
+      "name_th": "ธนาคารไทยเครดิต",
+      "name_en": "Thai Credit Bank Public Company Limited",
+      "swift_code": "THCETHB1",
+      "type": "commercial_bank",
+      "color": "#0066b3"
+    },
+    {
+      "code": "073",
+      "short_name": "LHBANK",
+      "name_th": "ธนาคารแลนด์ แอนด์ เฮ้าส์",
+      "name_en": "Land and Houses Bank Public Company Limited",
+      "swift_code": "LAHRTHB1",
+      "type": "commercial_bank",
+      "color": "#6d6e71"
+    },
+    {
+      "code": "080",
+      "short_name": "SMTB",
+      "name_th": "ธนาคารซูมิโตโม มิตซุย ทรัสต์ (ไทย)",
+      "name_en": "Sumitomo Mitsui Trust Bank (Thai) Public Company Limited",
+      "swift_code": "STBCTHBK",
+      "type": "foreign_bank",
+      "color": "#003e7e"
+    },
+    {
+      "code": "098",
+      "short_name": "SME",
+      "name_th": "ธนาคารพัฒนาวิสาหกิจขนาดกลางและขนาดย่อมแห่งประเทศไทย",
+      "name_en": "Small and Medium Enterprise Development Bank of Thailand",
+      "swift_code": "SMEATHB1",
+      "type": "government_bank",
+      "color": "#0d4c8b"
+    }
+  ]
+}
