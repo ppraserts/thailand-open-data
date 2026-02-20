@@ -8,14 +8,32 @@ Open data for Thailand in JSON format, ready to use.
 | Dataset | Path | Description |
 |---------|------|-------------|
 | วันหยุดราชการ | [`data/thai-public-holidays/`](data/thai-public-holidays/) | Thai public holidays (วันหยุดราชการไทย) |
+| วันหยุดธนาคาร | [`data/thai-bank-holidays/`](data/thai-bank-holidays/) | Thai bank holidays (วันหยุดสถาบันการเงิน) |
 
 ### Thai Public Holidays (วันหยุดราชการไทย)
 
+ประกาศโดยสำนักนายกรัฐมนตรี / มติคณะรัฐมนตรี
+
 | File | Description |
 |------|-------------|
-| [`2025.json`](data/thai-public-holidays/2025.json) | ปี พ.ศ. 2568 (2025) |
-| [`2026.json`](data/thai-public-holidays/2026.json) | ปี พ.ศ. 2569 (2026) |
+| [`2025.json`](data/thai-public-holidays/2025.json) | ปี พ.ศ. 2568 (2025) — 24 วัน |
+| [`2026.json`](data/thai-public-holidays/2026.json) | ปี พ.ศ. 2569 (2026) — 22 วัน |
 | [`all.json`](data/thai-public-holidays/all.json) | รวมทุกปี |
+
+### Thai Bank Holidays (วันหยุดสถาบันการเงิน)
+
+ประกาศโดยธนาคารแห่งประเทศไทย (ธปท.)
+
+| File | Description |
+|------|-------------|
+| [`2025.json`](data/thai-bank-holidays/2025.json) | ปี พ.ศ. 2568 (2025) — 19 วัน |
+| [`2026.json`](data/thai-bank-holidays/2026.json) | ปี พ.ศ. 2569 (2026) — 19 วัน |
+| [`all.json`](data/thai-bank-holidays/all.json) | รวมทุกปี |
+
+> **หมายเหตุ:** วันหยุดราชการ vs วันหยุดธนาคาร มีความแตกต่างกัน เช่น
+> - วันแรงงาน (1 พ.ค.) — ธนาคารหยุด แต่ไม่ใช่วันหยุดราชการ
+> - วันเข้าพรรษา, วันพืชมงคล — วันหยุดราชการ แต่ธนาคารไม่หยุด
+> - วันหยุดธนาคารไม่รวมวันที่ตรงกับเสาร์-อาทิตย์ (เพราะธนาคารหยุดอยู่แล้ว)
 
 ## Usage
 
@@ -84,8 +102,9 @@ curl -s https://raw.githubusercontent.com/ppraserts/thailand-open-data/main/data
 | Type | Description |
 |------|-------------|
 | `public_holiday` | วันหยุดราชการตามปกติ |
+| `bank_holiday` | วันหยุดสถาบันการเงิน (ประกาศโดย ธปท.) |
 | `substitution_holiday` | วันหยุดชดเชย |
-| `special_holiday` | วันหยุดพิเศษตามมติคณะรัฐมนตรี |
+| `special_holiday` | วันหยุดพิเศษตามมติคณะรัฐมนตรี / ธปท. |
 | `government_holiday` | วันหยุดเฉพาะภาคราชการ (เช่น วันพืชมงคล) |
 
 ## GitHub Pages Setup
@@ -101,9 +120,10 @@ URL จะพร้อมใช้งานที่: `https://ppraserts.github.
 
 ## Data Sources
 
-- [สำนักงานพัฒนารัฐบาลดิจิทัล (DGA)](https://www.dga.or.th/) — วันหยุดประจำปี 2569
+- [สำนักงานพัฒนารัฐบาลดิจิทัล (DGA)](https://www.dga.or.th/) — วันหยุดราชการประจำปี
 - [ราชกิจจานุเบกษา](https://ratchakitcha.soc.go.th/) — ประกาศวันหยุดราชการ
 - [มติคณะรัฐมนตรี](https://www.thaigov.go.th/) — วันหยุดพิเศษเพิ่มเติม
+- [ธนาคารแห่งประเทศไทย (ธปท.)](https://www.bot.or.th/th/financial-institutions-holiday.html) — วันหยุดสถาบันการเงิน
 
 ## Contributing
 
